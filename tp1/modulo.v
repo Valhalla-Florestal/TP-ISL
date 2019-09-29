@@ -3,25 +3,25 @@ module Notas (a,b,c,d,s0,s1,s2,,s3,s4,s5,s6,reset,ready);
   output reg s0,s1,s2,s3,s4,s5,s6;
 
   always @ (*) begin
-    if (reset) begin
-      s0 = 1;
-      s1 = 1;
-      s2 = 1;
-      s3 = 1;
-      s4 = 1;
-      s5 = 1;
-      s6 = 1;
-    end
-    else if (ready) begin
-        if ((a & b & c) == 0) begin
-          s0 = 1;
-          s1 = 1;
-          s2 = 1;
-          s3 = 1;
-          s4 = 1;
-          s5 = 1;
-          s6 = 1;
-        end
+    //if (reset) begin
+    //  s0 = 1;
+    //  s1 = 1;
+    //  s2 = 1;
+    //  s3 = 1;
+    //  s4 = 1;
+    //  s5 = 1;
+    //  s6 = 1;
+    //end
+    //else if (ready) begin
+        //if ((a & b & c) == 0) begin
+        //  s0 = 1;
+        //  s1 = 1;
+        //  s2 = 1;
+        //  s3 = 1;
+        //  s4 = 1;
+        //  s5 = 1;
+        //  s6 = 1;
+        //end
 
         s0 = ~(d | (~a & ~b & ~c));
         s1 = ~((a & ~c & d) | (~a & ~b & ~c) | (a & b & ~d) | (~a & b & c) | (~a & c & ~d));
@@ -38,6 +38,6 @@ module Notas (a,b,c,d,s0,s1,s2,,s3,s4,s5,s6,reset,ready);
         //s4 = ((b | c) & (~a | b | ~d) & (a | c | d) & (a | ~b | ~c));
         //s5 = ((~a | ~b | c | ~d) & (~a | b | ~c) & (a | b | d) & (a | b | c) & (a | ~b | ~c | ~d));
         //s6 = ((b) & (~a | c) & (a | d));
-    end
+    //end
   end
 endmodule // Notas
