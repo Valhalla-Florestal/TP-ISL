@@ -23,14 +23,13 @@ module Notas (a,b,c,d,s0,s1,s2,,s3,s4,s5,s6,reset,ready);
           s6 = 1;
         end
 
-        s0 = d | (~a & ~b & ~c);
-        s1 = (a & ~c & d) | (~a & ~b & ~c) | (a & b & ~d) | (~a & b & c) | (~a & c & ~d);
-        s2 = (~a & ~c) | (b & ~c) | (b & d) | (a & c & d);
-        s3 = (~a & ~b) | (c & ~d) | (~a & ~d) | (~b & ~d);
-        // ~a & ~b | a & b & ~c | b & ~c & d | ~a & c & ~d | ~b & c ~d
-        s4 = (~a & ~b) | (a & b & ~c) | (b & ~c & d) | (~b & c & ~d);
-        s5 = (~b & d) | (~a & b & c) | (~a & ~b & ~c) | (a & ~b & c) | (a & b & ~c & ~d);
-        s6 = (~a & ~b & ~c) | (a & ~b &~d);
+        s0 = ~(d | (~a & ~b & ~c));
+        s1 = ~((a & ~c & d) | (~a & ~b & ~c) | (a & b & ~d) | (~a & b & c) | (~a & c & ~d));
+        s2 = ~((~a & ~c) | (b & ~c) | (b & d) | (a & c & d));
+        s3 = ~((~a & ~b) | (c & ~d) | (~a & ~d) | (~b & ~d));
+        s4 = ~((~a & ~b) | (a & b & ~c) | (b & ~c & d) | (~b & c & ~d));
+        s5 = ~((~b & d) | (~a & b & c) | (~a & ~b & ~c) | (a & ~b & c) | (a & b & ~c & ~d));
+        s6 = ~((~a & ~b & ~c) | (a & ~b & ~d) | (a & b & c));
 
         //s0 = ((b | ~c | d) & (a | ~c | ~d) & (c | ~d));
         //s1 = ((~b | c | d) & (~a | b | ~c) & (a | c | d) & (a | ~b | ~d));
