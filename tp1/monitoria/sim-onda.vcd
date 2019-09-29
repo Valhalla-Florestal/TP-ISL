@@ -1,0 +1,41 @@
+$date
+	Sat Sep 28 16:53:36 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Simulacao $end
+$var wire 1 ! saida $end
+$var reg 1 " inA $end
+$var reg 1 # inB $end
+$var reg 1 $ inC $end
+$var reg 1 % inD $end
+$scope module ex_instancia1 $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ c $end
+$var wire 1 % d $end
+$var wire 1 ! s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+1!
+$end
+#1
+1"
+#2
+0!
+1$
+#3
+0"
+1#
+#5
