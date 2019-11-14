@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Display_7_Segmentos_XYLO
-Wed Oct 09 15:28:27 2019
+Fri Oct 25 07:38:01 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 09 15:28:27 2019       ;
+; Analysis & Synthesis Status        ; Successful - Fri Oct 25 07:38:01 2019       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; Display_7_Segmentos_XYLO                    ;
 ; Top-level Entity Name              ; Display_7_Segmentos_XYLO_TB                 ;
@@ -162,14 +162,14 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                  ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------------+---------+
-; Display_7_Segmentos_XYLO.v       ; yes             ; User Verilog HDL File  ; C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.v    ;         ;
-; Display_7_Segmentos_XYLO_TB.v    ; yes             ; User Verilog HDL File  ; C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                              ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------+---------+
+; Display_7_Segmentos_XYLO.v       ; yes             ; User Verilog HDL File  ; C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.v    ;         ;
+; Display_7_Segmentos_XYLO_TB.v    ; yes             ; User Verilog HDL File  ; C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------+
@@ -251,7 +251,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -261,75 +261,75 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Wed Oct 09 15:28:10 2019
+    Info: Processing started: Fri Oct 25 07:37:38 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Display_7_Segmentos_XYLO -c Display_7_Segmentos_XYLO
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file display_7_segmentos_xylo.v
-    Info (12023): Found entity 1: Display_7_Segmentos_XYLO File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.v Line: 1
+    Info (12023): Found entity 1: Display_7_Segmentos_XYLO File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file display_7_segmentos_xylo_tb.v
-    Info (12023): Found entity 1: Display_7_Segmentos_XYLO_TB File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 5
+    Info (12023): Found entity 1: Display_7_Segmentos_XYLO_TB File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 5
 Info (12127): Elaborating entity "Display_7_Segmentos_XYLO_TB" for the top level hierarchy
-Warning (10034): Output port "LEDG" at Display_7_Segmentos_XYLO_TB.v(14) has no driver File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-Warning (10034): Output port "LEDR" at Display_7_Segmentos_XYLO_TB.v(15) has no driver File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-Info (12128): Elaborating entity "Display_7_Segmentos_XYLO" for hierarchy "Display_7_Segmentos_XYLO:Display_7_Segmentos_XYLO_0" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 36
+Warning (10034): Output port "LEDG" at Display_7_Segmentos_XYLO_TB.v(14) has no driver File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+Warning (10034): Output port "LEDR" at Display_7_Segmentos_XYLO_TB.v(15) has no driver File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+Info (12128): Elaborating entity "Display_7_Segmentos_XYLO" for hierarchy "Display_7_Segmentos_XYLO:Display_7_Segmentos_XYLO_0" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 36
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDG[0]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[1]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[2]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[3]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[4]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[5]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[6]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[7]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDG[8]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
-    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[10]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[11]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[12]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[13]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[14]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[15]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[16]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
-    Warning (13410): Pin "LEDR[17]" is stuck at GND File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDG[0]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[1]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[2]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[3]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[4]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[5]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[6]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[7]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDG[8]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 14
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[10]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[11]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[12]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[13]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[14]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[15]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[16]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
+    Warning (13410): Pin "LEDR[17]" is stuck at GND File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 15
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 17 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CLOCK_50" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 9
-    Warning (15610): No output dependent on input pin "CLOCK2_50" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 10
-    Warning (15610): No output dependent on input pin "CLOCK3_50" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 11
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[10]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[11]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[12]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[13]" File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "CLOCK_50" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 9
+    Warning (15610): No output dependent on input pin "CLOCK2_50" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 10
+    Warning (15610): No output dependent on input pin "CLOCK3_50" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 11
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[10]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[11]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[12]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[13]" File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
 Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 21 input pins
     Info (21059): Implemented 34 output pins
     Info (21061): Implemented 7 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 49 warnings
     Info: Peak virtual memory: 4759 megabytes
-    Info: Processing ended: Wed Oct 09 15:28:27 2019
-    Info: Elapsed time: 00:00:17
+    Info: Processing ended: Fri Oct 25 07:38:01 2019
+    Info: Elapsed time: 00:00:23
     Info: Total CPU time (on all processors): 00:00:36
 
 

@@ -1,5 +1,5 @@
 Assembler report for Display_7_Segmentos_XYLO
-Wed Oct 09 15:28:57 2019
+Fri Oct 25 07:39:11 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.sof
+  5. Assembler Device Options: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Oct 09 15:28:57 2019 ;
+; Assembler Status      ; Successful - Fri Oct 25 07:39:11 2019 ;
 ; Revision Name         ; Display_7_Segmentos_XYLO              ;
 ; Top-level Entity Name ; Display_7_Segmentos_XYLO_TB           ;
 ; Family                ; Cyclone IV E                          ;
@@ -53,23 +53,23 @@ agreement for further details.
 +--------+---------+---------------+
 
 
-+--------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                    ;
-+--------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                    ;
-+--------------------------------------------------------------------------------------------------------------+
-; C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.sof ;
-+--------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                  ;
++------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                  ;
++------------------------------------------------------------------------------------------------------------+
+; C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.sof ;
++------------------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.sof ;
-+----------------+-----------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                               ;
-+----------------+-----------------------------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00565617                                                                                                            ;
-; Checksum       ; 0x00565617                                                                                                            ;
-+----------------+-----------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.sof ;
++----------------+---------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                             ;
++----------------+---------------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00565617                                                                                                          ;
+; Checksum       ; 0x00565617                                                                                                          ;
++----------------+---------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,15 +78,15 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Wed Oct 09 15:28:51 2019
+    Info: Processing started: Fri Oct 25 07:38:59 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Display_7_Segmentos_XYLO -c Display_7_Segmentos_XYLO
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4686 megabytes
-    Info: Processing ended: Wed Oct 09 15:28:57 2019
-    Info: Elapsed time: 00:00:06
+    Info: Processing ended: Fri Oct 25 07:39:11 2019
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:06
 
 

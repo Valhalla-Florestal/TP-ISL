@@ -1,5 +1,5 @@
 Fitter report for Display_7_Segmentos_XYLO
-Wed Oct 09 15:28:47 2019
+Fri Oct 25 07:38:41 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Wed Oct 09 15:28:47 2019       ;
+; Fitter Status                      ; Successful - Fri Oct 25 07:38:41 2019       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; Display_7_Segmentos_XYLO                    ;
 ; Top-level Entity Name              ; Display_7_Segmentos_XYLO_TB                 ;
@@ -149,12 +149,12 @@ agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -302,7 +302,7 @@ agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.pin.
+The pin-out file can be found in C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.pin.
 
 
 +---------------------------------------------------------------------+
@@ -1827,7 +1827,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "HEX7[4]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "HEX7[5]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "HEX7[6]" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1840,47 +1840,47 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.08 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
+Info (11888): Total time spent on timing analysis during the Fitter is 0.29 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 21 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 9
-    Info (169178): Pin CLOCK2_50 uses I/O standard 3.3-V LVTTL at AG14 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 10
-    Info (169178): Pin CLOCK3_50 uses I/O standard 3.3-V LVTTL at AG15 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 11
-    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at AB28 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at AC28 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[2] uses I/O standard 3.3-V LVTTL at AC27 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[3] uses I/O standard 3.3-V LVTTL at AD27 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[4] uses I/O standard 3.3-V LVTTL at AB27 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[5] uses I/O standard 3.3-V LVTTL at AC26 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[6] uses I/O standard 3.3-V LVTTL at AD26 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[7] uses I/O standard 3.3-V LVTTL at AB26 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[8] uses I/O standard 3.3-V LVTTL at AC25 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[9] uses I/O standard 3.3-V LVTTL at AB25 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[10] uses I/O standard 3.3-V LVTTL at AC24 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[11] uses I/O standard 3.3-V LVTTL at AB24 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[12] uses I/O standard 3.3-V LVTTL at AB23 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[13] uses I/O standard 3.3-V LVTTL at AA24 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[14] uses I/O standard 3.3-V LVTTL at AA23 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[16] uses I/O standard 3.3-V LVTTL at Y24 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[15] uses I/O standard 3.3-V LVTTL at AA22 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-    Info (169178): Pin SW[17] uses I/O standard 3.3-V LVTTL at Y23 File: C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
-Info (144001): Generated suppressed messages file C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.fit.smsg
+    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 9
+    Info (169178): Pin CLOCK2_50 uses I/O standard 3.3-V LVTTL at AG14 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 10
+    Info (169178): Pin CLOCK3_50 uses I/O standard 3.3-V LVTTL at AG15 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 11
+    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at AB28 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at AC28 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[2] uses I/O standard 3.3-V LVTTL at AC27 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[3] uses I/O standard 3.3-V LVTTL at AD27 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[4] uses I/O standard 3.3-V LVTTL at AB27 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[5] uses I/O standard 3.3-V LVTTL at AC26 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[6] uses I/O standard 3.3-V LVTTL at AD26 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[7] uses I/O standard 3.3-V LVTTL at AB26 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[8] uses I/O standard 3.3-V LVTTL at AC25 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[9] uses I/O standard 3.3-V LVTTL at AB25 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[10] uses I/O standard 3.3-V LVTTL at AC24 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[11] uses I/O standard 3.3-V LVTTL at AB24 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[12] uses I/O standard 3.3-V LVTTL at AB23 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[13] uses I/O standard 3.3-V LVTTL at AA24 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[14] uses I/O standard 3.3-V LVTTL at AA23 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[16] uses I/O standard 3.3-V LVTTL at Y24 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[15] uses I/O standard 3.3-V LVTTL at AA22 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+    Info (169178): Pin SW[17] uses I/O standard 3.3-V LVTTL at Y23 File: C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO_TB.v Line: 18
+Info (144001): Generated suppressed messages file C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 55 warnings
-    Info: Peak virtual memory: 5686 megabytes
-    Info: Processing ended: Wed Oct 09 15:28:48 2019
-    Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:28
+    Info: Peak virtual memory: 5689 megabytes
+    Info: Processing ended: Fri Oct 25 07:38:43 2019
+    Info: Elapsed time: 00:00:39
+    Info: Total CPU time (on all processors): 00:00:24
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/guilh/Downloads/quartus/CodeGenerated/DE2_115/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.fit.smsg.
+The suppressed messages can be found in C:/Users/guilh/OneDrive/Documentos/GitHub/TP-ISL/tp1/Display_7_Segmentos_XYLO/Display_7_Segmentos_XYLO.fit.smsg.
 
 

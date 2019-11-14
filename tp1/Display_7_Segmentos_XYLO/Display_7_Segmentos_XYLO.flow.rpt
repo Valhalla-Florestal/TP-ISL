@@ -1,5 +1,5 @@
 Flow report for Display_7_Segmentos_XYLO
-Wed Oct 09 15:29:05 2019
+Fri Oct 25 07:39:22 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 09 15:28:57 2019       ;
+; Flow Status                        ; Successful - Fri Oct 25 07:39:11 2019       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; Display_7_Segmentos_XYLO                    ;
 ; Top-level Entity Name              ; Display_7_Segmentos_XYLO_TB                 ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+--------------------------+
 ; Option            ; Setting                  ;
 +-------------------+--------------------------+
-; Start date & time ; 10/09/2019 15:28:10      ;
+; Start date & time ; 10/25/2019 07:37:39      ;
 ; Main task         ; Compilation              ;
 ; Revision Name     ; Display_7_Segmentos_XYLO ;
 +-------------------+--------------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+--------------------------+-----------------------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value            ; Entity Name                 ; Section Id ;
 +-------------------------------------+----------------------------------------+--------------------------+-----------------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 93181009417838.157064569011616         ; --                       ; --                          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 93181009417838.157199985901708         ; --                       ; --                          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --                       ; Display_7_Segmentos_XYLO_TB ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --                       ; Display_7_Segmentos_XYLO_TB ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --                       ; Display_7_Segmentos_XYLO_TB ; Top        ;
@@ -89,11 +89,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 4759 MB             ; 00:00:35                           ;
-; Fitter                    ; 00:00:19     ; 1.0                     ; 5686 MB             ; 00:00:27                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 4686 MB             ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 4841 MB             ; 00:00:04                           ;
-; Total                     ; 00:00:46     ; --                      ; --                  ; 00:01:12                           ;
+; Analysis & Synthesis      ; 00:00:20     ; 1.0                     ; 4759 MB             ; 00:00:36                           ;
+; Fitter                    ; 00:00:37     ; 1.0                     ; 5689 MB             ; 00:00:24                           ;
+; Assembler                 ; 00:00:12     ; 1.0                     ; 4686 MB             ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:09     ; 1.0                     ; 4841 MB             ; 00:00:03                           ;
+; Total                     ; 00:01:18     ; --                      ; --                  ; 00:01:09                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
